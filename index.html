@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+      html, body {
+        margin: 0;
+      }
+      body {
+        display: grid;
+        place-items: center;
+        cursor: pointer;
+        height: 100vh;
+        width: 100vw;
+      }
+      * {
+        font-family: 'Carattere', cursive;
+        color: #F2CB00;
+      }
+
+      @keyframes fade-in {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      #name {
+        font-size: 4em;
+        animation: fade-in 3s;
+        user-select: none;
+      }
+    </style>
+    <title>Delique</title>
+  </head>
+  <body>
+    <div id="name">Delique</div>
+  </body>
+</html>
